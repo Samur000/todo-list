@@ -1,0 +1,76 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background-color: #222;
+   color: #fff;
+   padding: 40px;
+   font-family: sans-serif;
+}
+
+#input, #btn-add, .todo{
+   border-radius: 8px;
+   padding: 10px 20px;
+   font-size: 18px;
+}
+
+#input{
+   outline: none;
+   border: 1px solid rgb(111, 255, 0);
+   background-color: #222;
+   color: #fff;
+}
+#input:focus{
+   box-shadow: 0px 0px 10px 0px rgb(61, 213, 38);
+}
+#btn-add{
+   border: 1px solid rgb(111, 255, 0);
+   background-color: rgba(34, 34, 34, 0);
+   color: #fff;
+   cursor: pointer;
+}
+#btn-add:hover{
+   border: 1px solid rgb(111, 255, 0);
+   background-color: rgba(87, 84, 84, 0.444);
+}
+
+.todo {
+   font-size: 16px;
+   border: 1px solid rgb(111, 255, 0);
+   margin: 0px 0px 10px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.btn-delete, .btn-done{
+   font-size: 13px;
+   padding: 5px 7px;
+   border-radius: 5px;
+   background-color: rgba(34, 34, 34, 0);
+   cursor: pointer;
+}
+.btn-delete:hover, .btn-done:hover{
+   background-color: rgba(87, 84, 84, 0.444);
+}
+
+.btn-delete{
+   margin: 0px 0px 0px 10px;
+   border: 2px solid red;
+   color: red;
+}
+.btn-done{
+   margin: 0px 0px 0px 10px;
+   border: 2px solid rgb(5, 255, 5);
+   color: rgb(5, 255, 5);
+}
+
+.done{
+   color: rgb(137, 137, 137);
+   text-decoration: line-through;
+}
+.done-btn-style{
+   color: rgb(98, 98, 98);
+   border: 2px solid rgb(98, 98, 98);
+}
